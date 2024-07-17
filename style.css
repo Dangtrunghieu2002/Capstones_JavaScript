@@ -50,8 +50,9 @@ nav {
 
 .navBottom {
   display: flex;
+  margin-top: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .menuItem {
@@ -119,7 +120,7 @@ nav {
   font-size: 3.75rem;
   font-weight: 900;
   text-align: right;
-  color: white;
+  color: black;
   z-index: 1;
 }
 .sliderPrice {
@@ -135,7 +136,7 @@ nav {
 }
 .buyButton {
   position: absolute;
-  top: 50%;
+  top: 70%;
   right: 10%;
   font-size: 1.875rem;
   font-weight: 900;
@@ -189,8 +190,7 @@ nav {
   padding: 5px;
 }
 
-/* Product Container*/
-/* style.css */
+/* Product Container */
 
 body {
   font-family: 'Lato', sans-serif;
@@ -305,7 +305,7 @@ body {
   text-transform: uppercase;
 }
 
-.buyNowButton{
+.buyNowButton {
   margin-bottom: 15px;
   padding: 10px 20px;
   cursor: pointer;
@@ -314,7 +314,6 @@ body {
   border: none;
   text-transform: uppercase;
 }
-
 
 /* FEATURES */
 
@@ -347,9 +346,10 @@ body {
   height: 100px;
 }
 
-/*  PRODUCTS */
+/* PRODUCTS */
 
 .product {
+  display: flex;
   height: 100vh;
   background-color: whitesmoke;
   position: relative;
@@ -362,7 +362,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   position: absolute;
-  /*  How to position an absolute item to center? Look below */
+  /* How to position an absolute item to center? Look below */
   top: 0;
   bottom: 0;
   left: 0;
@@ -441,7 +441,7 @@ label {
 }
 
 .productImage {
-  width: 50%;
+  width: 50% !important;
 }
 .productDetails {
   position: absolute;
@@ -726,3 +726,5 @@ footer {
     padding: 20px;
   }
 }
+
+
