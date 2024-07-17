@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
     menuItems.forEach((item, index) => {
         item.addEventListener('click', () => {
           //changes the current slide
@@ -146,10 +145,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 sizeElement.style.color = 'white';
             });
         });
+
+
+        
     }
     
 
-    // Initial load of products for the first category (example: Nike)
+    // Initial load of products for the first category 
     fetchProductsByCategory('NIKE');
     fetchProductsByCategory('ADIDAS');
     fetchProductsByCategory('VANS_CONVERSE');
